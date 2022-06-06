@@ -1,0 +1,12 @@
+
+$ cd Documents
+
+$ cd JAVAClasses
+
+$ git status
+
+$ git add --all
+
+$ git commit -m"swapp program"
+
+$ git push
