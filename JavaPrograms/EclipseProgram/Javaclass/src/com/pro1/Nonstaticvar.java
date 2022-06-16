@@ -15,6 +15,12 @@ public class Nonstaticvar {
 		System.out.println("a="+n1.a);
 		System.out.println("s="+n1.s);
 		System.out.println("Main ends");
+		Nonstaticvar n2=new Nonstaticvar();
+		n2.a=83877;
+		n2.s="wandana";
+		System.out.println("a="+n2.a);
+		System.out.println("s="+n2.s);
+		
 
 	}
 
