@@ -1,15 +1,15 @@
 package com.pro1;
 
-public class Student {
+public class Student1 {
 String name;
 int age;
 String sub;
 //to intialise non atatic variable
-public Student(String n,int a,String s)
+public Student1(String name,int age,String sub)
 {
-	name=n;
-	age=a;
-	sub=s;
+	name=name;
+	age=age;
+	sub=sub;
 	}
 public void display() {
 	System.out.println("Name = "+name+ " Age =" +age+" Subject =" +sub);
@@ -17,8 +17,8 @@ public void display() {
 }
 public static void main(String[] args) {
 
-	Student ms=new Student("Lalit", 62, "Bio");
-	Student ms1=new Student("Smita", 30, "c++");
+	Student1 ms=new Student1("Lalit", 62, "Bio");
+	Student1 ms1=new Student1("Smita", 30, "c++");
 	ms.display();
 	ms1.display();
 }
