@@ -18,6 +18,7 @@ public class Test1 {
 	Box b1=new Box(a);
 	b1.display();
 	
+	Nonstaticblock n=new Nonstaticblock();
 	}
 
 }
