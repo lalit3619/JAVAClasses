@@ -1,9 +1,10 @@
 package com.OOPSPrograms;
 
-public class Test2 {
+public class Test2 extends Object {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	Test2 t=new Test2();
+	
 
 	}
 
