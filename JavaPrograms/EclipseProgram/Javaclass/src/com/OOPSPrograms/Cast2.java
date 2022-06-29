@@ -11,7 +11,10 @@ public class Cast2 extends Cast1 {
 		//Upcasting in java
 	Cast1 c=new Cast2();
 	c.cast12();
-
+     if(c instanceof Cast2) {
+	   Cast2 c1=(Cast2)c;
+	   c1.cast14();
+   }
 	}
 
 }
