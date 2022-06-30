@@ -12,7 +12,7 @@ public class Cast2 extends Cast1 {
 	Cast1 c=new Cast2();
 	c.cast12();
      if(c instanceof Cast2) {
-	   Cast2 c1=(Cast2)c;
+	   Cast2 c1=(Cast2)c;//Downcasting i java
 	   c1.cast14();
    }
 	}
