@@ -10,8 +10,9 @@ public class Stringprogram1 {
 		System.out.println(s==s1);
 		String s2="Ram";
 		System.out.println(s1==s2);
-		
+		Stringprogram1 s123=new Stringprogram1();
+		System.out.println(s.equals(s1));
 	}
 	
-
+ 
 }
